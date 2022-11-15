@@ -2,8 +2,17 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    background-color: #1e88e5;
 }
 
 main {
     flex: 1 0 auto;
+}
+
+.btn, .btn-large {
+    border-radius: 5px;
+}
+
+.btn:active, .btn-large:active {
+    transform: scale(0.95);
 }
