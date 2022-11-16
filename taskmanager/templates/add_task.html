@@ -47,8 +47,8 @@
         <div class="row">
             <div class="input-field col s12">
                 <i class="fas fa-folder-open prefix white-text text-darken-1"></i>
-                <select id="category_id" name="category_id" class="validate" required>
-                    <option value="" disabled selected>Choose Category</option>
+                <select id="category_id" name="category_id" class="validate blue darken-1" required>
+                    <option value="" disabled selected class="white-text">Choose Category</option>
                     {% for category in categories %}
                         <option value="{{ category.id }}">{{ category.category_name }}</option>
                     {% endfor %}
