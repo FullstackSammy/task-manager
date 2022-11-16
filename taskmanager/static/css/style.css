@@ -16,3 +16,7 @@ main {
 .btn:active, .btn-large:active {
     transform: scale(0.95);
 }
+
+.pinky {
+    background-color: #d81b60;
+}

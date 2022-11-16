@@ -13,4 +13,13 @@ document.addEventListener("DOMContentLoaded", function() {
     // select initialization
     let selects = document.querySelectorAll("select");
     M.FormSelect.init(selects);
+
+    // collapsible initializataion
+    let collapsibles = document.querySelectorAll(".collapsible");
+    M.Collapsible.init(collapsibles);
+
+    const pinky = document.getElementsByClassName('lever');
+    pinky.addEventListener('click', () => {
+        pinky.className.add('pinky');
+    });
 });
