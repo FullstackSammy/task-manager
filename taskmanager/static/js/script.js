@@ -17,9 +17,4 @@ document.addEventListener("DOMContentLoaded", function() {
     // collapsible initializataion
     let collapsibles = document.querySelectorAll(".collapsible");
     M.Collapsible.init(collapsibles);
-
-    const pinky = document.getElementsByClassName('lever');
-    pinky.addEventListener('click', () => {
-        pinky.className.add('pinky');
-    });
 });
